@@ -232,7 +232,50 @@
       ]
     }
   ],
-  "mistakes": [],
+  "mistakes": [
+    {
+      "topic": "Bounding boxes",
+      "title": "Boxes not drawn on the first visible frame",
+      "details": "In coarse segments, bounding boxes are not consistently drawn on the first frame where the object becomes visible.",
+      "images": []
+    },
+    {
+      "topic": "Camera motion",
+      "title": "Using “idle” in camera motion",
+      "details": "Annotators are still entering “idle” in the Camera motion field. If there is no camera movement, leave the field blank.",
+      "wrong": [
+        "Camera motion: idle"
+      ],
+      "right": [
+        "Camera motion: (leave blank)"
+      ],
+      "images": []
+    },
+    {
+      "topic": "Objects",
+      "title": "Confusing similar objects and verbs",
+      "details": "Similar objects (shelf / cabinet / rack, mop / brush / wiper) and similar action verbs (clean / wipe / sweep) are being mixed up. Use the name that matches what you see in the video.",
+      "images": []
+    },
+    {
+      "topic": "Verbs & actions",
+      "title": "Using “rest on” for a resting hand",
+      "details": "Don’t use “rest on” when a hand is resting on an object. Use “idle” instead.",
+      "wrong": [
+        "Verb: rest on"
+      ],
+      "right": [
+        "Verb: idle"
+      ],
+      "images": []
+    },
+    {
+      "topic": "Camera motion",
+      "title": "Inconsistent camera motion labels",
+      "details": "Camera movements are not being labeled consistently or accurately across tasks. Always mention camera movements, even when the movement is slight.",
+      "images": []
+    }
+  ],
   "performance": {
     "period": "",
     "top": [
