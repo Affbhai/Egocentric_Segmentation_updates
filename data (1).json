@@ -1,0 +1,326 @@
+{
+  "_help": "Edit this file to update the page. Dates are YYYY-MM-DD. Newest date goes at the top. Image names must match files in the images folder. Topics: Segments, Objects, Bounding boxes, Verbs & actions, Locations, Camera motion, Other field.",
+  "lastUpdated": "2026-10-21",
+  "updates": [
+    {
+      "date": "2026-10-21",
+      "items": [
+        {
+          "topic": "Verbs & actions",
+          "text": "If a person mops a floor, the verb is now “mops”, not “wipes”.",
+          "previous": [
+            "Verb: wipes",
+            "Object: floor",
+            "Tool: mop"
+          ],
+          "now": [
+            "Verb: mops",
+            "Object: floor",
+            "Tool: mop"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Locations",
+          "text": "For “folds” and “unfolds”, mention the location if the object is in contact with any surface.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-20",
+      "items": [
+        {
+          "topic": "Objects",
+          "text": "When a person transfers a cloth from one hand to the other, mark only the cloth as the object, not the hands. You can mention the hand in the location field.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-16",
+      "items": [
+        {
+          "topic": "Camera motion",
+          "text": "Use body movement and head movement as labels in camera motion.",
+          "images": []
+        },
+        {
+          "topic": "Verbs & actions",
+          "text": "If a person washes their hands under a faucet, use these labels:",
+          "points": [
+            "Verb: retains",
+            "Object: hand",
+            "Object description: under the faucet"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Camera motion",
+          "text": "Annotators are still marking “idle” in the camera motion field. If there is no camera movement, leave the field blank.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-15",
+      "items": [
+        {
+          "topic": "Camera motion",
+          "text": "Camera movement now includes looking up and down, and looking left and right.",
+          "previous": [
+            "Not mentioned"
+          ],
+          "now": [
+            "Looks up / down",
+            "Looks left / right"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Segments",
+          "text": "If a person wipes one side of a door and then moves to the other side to wipe it, split the task into two separate coarse segments and label each one with its own atomic actions.",
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "If a cloth is hanging on a hanger mounted on the wall, use the term “ceiling cloth hanger”.",
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Previously we used “opens the tap”. Now specify the exact part being interacted with: “opens the knob of the faucet”.",
+          "previous": [
+            "Verb: open",
+            "Object: faucet",
+            "Object description: knob of"
+          ],
+          "now": [
+            "Verb: presses",
+            "Object: faucet",
+            "Object description: on sink"
+          ],
+          "labels": [
+            "Example 1",
+            "Example 2"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "If a person transfers a cloth from one hand to the other, mark only the cloth, not the hands.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-14",
+      "items": [
+        {
+          "topic": "Bounding boxes",
+          "text": "Residue and dust particles on the floor are now marked as objects, using small bounding boxes.",
+          "previous": [
+            "Not marked as objects"
+          ],
+          "now": [
+            "Marked with small bounding boxes"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Don’t mention brand names in object names.",
+          "previous": [
+            "HP monitor"
+          ],
+          "now": [
+            "monitor"
+          ],
+          "labels": [
+            "Don’t use",
+            "Use"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Verbs & actions",
+          "text": "Use the most relevant action name.",
+          "previous": [
+            "scrub"
+          ],
+          "now": [
+            "scrape"
+          ],
+          "labels": [
+            "Don’t use",
+            "Use"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Locations",
+          "text": "For actions on residue and dirt, the location now starts with “from”.",
+          "previous": [
+            "Verb: wiping dirt",
+            "Location: floor"
+          ],
+          "now": [
+            "Verb: wiping dirt",
+            "Location: from the floor"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Other field",
+          "text": "When the left hand holds two objects, mention one object in the verb and location fields and the other in the Other field, separated with a comma ( , ).",
+          "images": []
+        },
+        {
+          "topic": "Verbs & actions",
+          "text": "Use the verb “pour” only when describing the pouring of liquids.",
+          "images": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-13",
+      "items": [
+        {
+          "topic": "Segments",
+          "text": "Perform the same continuous action for pick and place. Do not merge the coarse segments.",
+          "images": []
+        },
+        {
+          "topic": "Verbs & actions",
+          "text": "When the left hand is holding an object and the right hand is not performing any action:",
+          "points": [
+            "Left hand: holding an object",
+            "Right hand: idle (no action)"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Bounding boxes",
+          "text": "When marking the floor or wall with a bounding box, mark the entire relevant area.",
+          "points": [
+            "Example: if the hall, kitchen and bedroom floors are visible but the action takes place in the hall, box the entire hall floor only. Don’t include the kitchen or bedroom."
+          ],
+          "images": []
+        },
+        {
+          "topic": "Verbs & actions",
+          "text": "Wiping the hands with a towel: Verb is idle.",
+          "images": []
+        },
+        {
+          "topic": "Camera motion",
+          "text": "“Bends down” and “rises up” can now be included in camera motion labels.",
+          "previous": [
+            "Not labelled"
+          ],
+          "now": [
+            "Bends down",
+            "Rises up"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Bounding boxes",
+          "text": "Bounding boxes need to be marked correctly.",
+          "images": []
+        }
+      ]
+    }
+  ],
+  "mistakes": [
+    {
+      "topic": "Bounding boxes",
+      "title": "Boxes not drawn on the first visible frame",
+      "details": "In coarse segments, bounding boxes are not consistently drawn on the first frame where the object becomes visible.",
+      "images": []
+    },
+    {
+      "topic": "Camera motion",
+      "title": "Using “idle” in camera motion",
+      "details": "Annotators are still entering “idle” in the Camera motion field. If there is no camera movement, leave the field blank.",
+      "wrong": [
+        "Camera motion: idle"
+      ],
+      "right": [
+        "Camera motion: (leave blank)"
+      ],
+      "images": []
+    },
+    {
+      "topic": "Objects",
+      "title": "Confusing similar objects and verbs",
+      "details": "Similar objects (shelf / cabinet / rack, mop / brush / wiper) and similar action verbs (clean / wipe / sweep) are being mixed up. Use the name that matches what you see in the video.",
+      "images": []
+    },
+    {
+      "topic": "Verbs & actions",
+      "title": "Using “rest on” for a resting hand",
+      "details": "Don’t use “rest on” when a hand is resting on an object. Use “idle” instead.",
+      "wrong": [
+        "Verb: rest on"
+      ],
+      "right": [
+        "Verb: idle"
+      ],
+      "images": []
+    },
+    {
+      "topic": "Camera motion",
+      "title": "Inconsistent camera motion labels",
+      "details": "Camera movements are not being labeled consistently or accurately across tasks. Always mention camera movements, even when the movement is slight.",
+      "images": []
+    }
+  ],
+  "performance": {
+    "period": "",
+    "top": [
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      }
+    ],
+    "bottom": [
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      },
+      {
+        "name": "",
+        "note": ""
+      }
+    ]
+  }
+}
