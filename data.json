@@ -1,7 +1,23 @@
 {
   "_help": "Edit this file to update the page. Dates are YYYY-MM-DD. Newest date goes at the top. Image names must match files in the images folder. Topics: Segments, Objects, Bounding boxes, Verbs & actions, Locations, Camera motion, Other field.",
-  "lastUpdated": "2026-10-21",
+  "lastUpdated": "2026-10-22",
   "updates": [
+    {
+      "date": "2026-10-22",
+      "items": [
+        {
+          "topic": "Bounding boxes",
+          "text": "When marking a wall with a bounding box, if you can clearly tell the surfaces apart, draw one bounding box around only the surface the ego is working on.",
+          "points": [
+            "Example: in the attached image, the left and right walls are separated by the staircase. The ego works only on the right wall, so only the right wall is boxed.",
+            "Follow this in all upcoming files."
+          ],
+          "images": [
+            "wall-bounding-box-2026-10-22.png"
+          ]
+        }
+      ]
+    },
     {
       "date": "2026-10-21",
       "items": [
@@ -161,11 +177,11 @@
           "topic": "Locations",
           "text": "For actions on residue and dirt, the location now starts with “from”.",
           "previous": [
-            "Verb: wiping dirt",
+            "Verb: wiping",
             "Location: floor"
           ],
           "now": [
-            "Verb: wiping dirt",
+            "Verb: wiping",
             "Location: from the floor"
           ],
           "images": []
@@ -178,7 +194,10 @@
         {
           "topic": "Verbs & actions",
           "text": "Use the verb “pour” only when describing the pouring of liquids.",
-          "images": []
+          "images": [],
+          "points": [
+            "For other solid objects, use verbs such as dispense, spill or move."
+          ]
         }
       ]
     },
