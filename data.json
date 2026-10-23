@@ -22,6 +22,29 @@
             "This is acceptable only when multiple identical objects of the same type are present."
           ],
           "images": []
+        },
+        {
+          "topic": "Verbs & actions",
+          "text": "Annotate trouser-pulling actions based on whether one leg or both legs are pulled.",
+          "points": [
+            "Leave out the Object description when both trouser legs are pulled together."
+          ],
+          "previous": [
+            "Verb: pulls",
+            "Object: trouser",
+            "Object description: one leg of",
+            "Location: inwards"
+          ],
+          "now": [
+            "Verb: pulls",
+            "Object: trouser",
+            "Location: inwards"
+          ],
+          "labels": [
+            "Scenario A · Single leg",
+            "Scenario B · Both legs together"
+          ],
+          "images": []
         }
       ]
     },
