@@ -1,7 +1,20 @@
 {
   "_help": "Edit this file to update the page. Dates are YYYY-MM-DD. Newest date goes at the top. Image names must match files in the images folder. Topics: Segments, Objects, Bounding boxes, Verbs & actions, Locations, Camera motion, Other field.",
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-23",
   "updates": [
+    {
+      "date": "2026-10-23",
+      "items": [
+        {
+          "topic": "Verbs & actions",
+          "text": "When using “hold” for objects like brooms or mops, specify the relevant part, such as “handle of”, wherever applicable.",
+          "points": [
+            "Example: Verb: hold · Object: mop · Object description: handle of"
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "date": "2026-10-22",
       "items": [
