@@ -12,6 +12,16 @@
             "Example: Verb: hold · Object: mop · Object description: handle of"
           ],
           "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "When a video shows multiple clothes piled up on the floor, annotate each piece of clothing as a separate object.",
+          "points": [
+            "Example: if 10–15 pieces of clothing are piled together and the ego picks them up one by one from the top, give each piece its own object ID: Cloth 1, Cloth 2, Cloth 3, and so on.",
+            "If all the clothes look identical, with the same color and pattern, you can use the same object description for each one. For example, if all of them are blue, describe each object as “blue cloth”.",
+            "This is acceptable only when multiple identical objects of the same type are present."
+          ],
+          "images": []
         }
       ]
     },
