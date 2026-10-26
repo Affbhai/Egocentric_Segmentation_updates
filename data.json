@@ -1,7 +1,22 @@
 {
   "_help": "Edit this file to update the page. Dates are YYYY-MM-DD. Newest date goes at the top. Image names must match files in the images folder. Topics: Segments, Objects, Bounding boxes, Verbs & actions, Locations, Camera motion, Other field.",
-  "lastUpdated": "2026-10-23",
+  "lastUpdated": "2026-10-26",
   "updates": [
+    {
+      "date": "2026-10-26",
+      "items": [
+        {
+          "topic": "Bounding boxes",
+          "text": "When hands are washed under a faucet, label it as below and draw a bounding box around the hand as an object. This is an exception to the usual rule of never boxing hands.",
+          "points": [
+            "Verb: wash",
+            "Object: hand",
+            "Location: under @faucet"
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "date": "2026-10-23",
       "items": [
@@ -118,16 +133,6 @@
         {
           "topic": "Camera motion",
           "text": "Use body movement and head movement as labels in camera motion.",
-          "images": []
-        },
-        {
-          "topic": "Verbs & actions",
-          "text": "If a person washes their hands under a faucet, use these labels:",
-          "points": [
-            "Verb: retains",
-            "Object: hand",
-            "Object description: under the faucet"
-          ],
           "images": []
         },
         {
