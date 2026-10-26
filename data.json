@@ -239,14 +239,14 @@
         },
         {
           "topic": "Locations",
-          "text": "For actions on residue and dirt, the location now starts with “from”.",
+          "text": "For actions on residue and dirt, the location now starts with “on”.",
           "previous": [
             "Verb: wiping",
             "Location: floor"
           ],
           "now": [
             "Verb: wiping",
-            "Location: from the floor"
+            "Location: on the floor"
           ],
           "images": []
         },
