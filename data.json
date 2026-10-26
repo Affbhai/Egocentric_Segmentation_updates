@@ -45,6 +45,19 @@
             "Scenario B · Both legs together"
           ],
           "images": []
+        },
+        {
+          "topic": "Camera motion",
+          "text": "Camera motion can be sequential. Write every movement the ego makes, in the order it happens.",
+          "points": [
+            "Example: if the ego moves forward, turns right, moves forward, turns left and moves forward again, the camera motion is: move forward, turn right, move forward, turn left, move forward"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Camera motion",
+          "text": "Capture every camera movement, including minute turns and slight looks. The client expects even light movements to be labelled.",
+          "images": []
         }
       ]
     },
