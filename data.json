@@ -21,6 +21,15 @@
             "Never add two verbs to a single atomic segment."
           ],
           "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "When you add a door as an object, describe it by its location or by its position relative to other objects from the camera’s viewpoint.",
+          "points": [
+            "By location: door · in wall",
+            "By relative position: door · behind the red bucket"
+          ],
+          "images": []
         }
       ]
     },
