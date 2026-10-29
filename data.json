@@ -1,7 +1,43 @@
 {
   "_help": "Edit this file to update the page. Dates are YYYY-MM-DD. Newest date goes at the top. Image names must match files in the images folder. Topics: Segments, Objects, Bounding boxes, Verbs & actions, Locations, Camera motion, Other field.",
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-29",
   "updates": [
+    {
+      "date": "2026-10-29",
+      "items": [
+        {
+          "topic": "Camera motion",
+          "text": "Mark “look down” in camera motion only when the ego looks down at a specific moment.",
+          "points": [
+            "If the ego works while looking down for the entire task, don’t mark “look down” throughout the video. It isn’t a movement, just the ego’s working position."
+          ],
+          "images": []
+        },
+        {
+          "topic": "Segments",
+          "text": "An atomic segment holds one verb. If you need two verbs, split the atomic segment into two.",
+          "points": [
+            "Put the first verb in the first atomic segment and the second verb in the next one.",
+            "Never add two verbs to a single atomic segment."
+          ],
+          "images": []
+        }
+      ]
+    },
+    {
+      "date": "2026-10-28",
+      "items": [
+        {
+          "topic": "Objects",
+          "text": "Object indexing restarts in every new coarse segment.",
+          "points": [
+            "Example: if coarse segment 1 has Cloth 1, Cloth 2 and Cloth 3, the cloths in coarse segment 2 start again from Cloth 1, not Cloth 4.",
+            "Number objects based only on what is in the current coarse segment."
+          ],
+          "images": []
+        }
+      ]
+    },
     {
       "date": "2026-10-26",
       "items": [
@@ -239,14 +275,14 @@
         },
         {
           "topic": "Locations",
-          "text": "For actions on residue and dirt, the location now starts with “on”.",
+          "text": "For actions on residue and dirt, the location now starts with “from”.",
           "previous": [
             "Verb: wiping",
             "Location: floor"
           ],
           "now": [
             "Verb: wiping",
-            "Location: on the floor"
+            "Location: from the floor"
           ],
           "images": []
         },
