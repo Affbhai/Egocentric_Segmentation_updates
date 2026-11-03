@@ -1,7 +1,70 @@
 {
   "_help": "Edit this file to update the page. Dates are YYYY-MM-DD. Newest date goes at the top. Image names must match files in the images folder. Topics: Segments, Objects, Bounding boxes, Verbs & actions, Locations, Camera motion, Other field.",
-  "lastUpdated": "2026-10-29",
+  "lastUpdated": "2026-11-03",
   "updates": [
+    {
+      "date": "2026-11-03",
+      "items": [
+        {
+          "topic": "Objects",
+          "text": "Location on the box frame: mention whether the object is being held or used. Where it applies, include both its physical location and how it is being held.",
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Correct surface: describe the actual surface the object is placed on, and keep it consistent across all object descriptions.",
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Correct object naming: use the standard names from the SOP and keep the same name throughout the task.",
+          "points": [
+            "Examples: plastic_bag, shelf, thermos, mop_bucket, smartphone"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Cloth vs clothes: use “cloth” for cleaning rags and “clothes” for garments.",
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Indexing: add numbers only when there are two or more objects of the same type.",
+          "points": [
+            "Use chair_1, chair_2.",
+            "Don’t index a single object, and never use _01."
+          ],
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Object descriptions: don’t use numbers or underscores. Write normal words with spaces.",
+          "points": [
+            "Example: door frame on wall"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Same type, same frame: when several objects of the same type appear in one frame, tell them apart by colour or position.",
+          "points": [
+            "Examples: leftmost chair, rightmost chair"
+          ],
+          "images": []
+        },
+        {
+          "topic": "Objects",
+          "text": "Avoid duplicate objects: don’t create more than one entry for the same physical object within a segment. Reuse the existing object.",
+          "images": []
+        },
+        {
+          "topic": "Bounding boxes",
+          "text": "Bounding boxes: cover the entire object, place the box accurately, and draw it on a clear frame. Avoid tiny or misplaced boxes.",
+          "images": []
+        }
+      ]
+    },
     {
       "date": "2026-10-29",
       "items": [
